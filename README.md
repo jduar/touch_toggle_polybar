@@ -11,9 +11,6 @@ To add this plugin to polybar, place touch_toggle.sh in the same folder as polyb
 type = custom/script
 interval = 2
 
-format-padding = 1
-format-background = #252A36
-
 exec = ~/.config/polybar/touch_toggle.sh
 click-left = ~/.config/polybar/touch_toggle.sh --click
 ```
